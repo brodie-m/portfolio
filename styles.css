@@ -166,7 +166,6 @@ img {
     grid-template-columns: 10rem 10rem;
     grid-template-rows: 10rem 10rem;
     justify-content: center;
-    line-height: 50px;
     color: black;
     text-align: center;
     width: 50%;
@@ -177,6 +176,11 @@ img {
     border: 2px solid rgba(172, 172, 172, 0.534);
     border-radius: 10px;
 }
+
+.bordered-container > p {
+    font-size: 1rem;
+}
+
   #project-1 {
       grid-row: 1;
       grid-column: 1;
