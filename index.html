@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/b294569c76.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700">
+    <title>Document</title>
+</head>
+<!-- start nav bar -->
+<section>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#name-text">About me</a>
+        <a href="#projects">Projects</a>
+        <a href="#socials">Contact</a>
+      </div>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</section>
+
+<!-- end nav bar -->
+<section>
+    <body>
+        <div class="container">
+            <h1 class = "main-title" id="name-text">Brodie McGuire</h1>
+            <h2 class = "subtitle">developer <sup>?</sup></h2>
+        </div>
+    </body>
+</section>
+<hr>
+<section>
+    <div class="about">
+        <form action="">
+            <fieldset>
+                <legend class="subtitle" id="about-me">About me</legend>
+                <div class="main-image"></div>
+                <p>Hi! I'm Brodie, a recent graduate from the University of Cambridge. I studied Natural Sciences, eventually specialising in Chemistry in my final year. After many years of weighing up the pros and cons of research and tech, I've decided upon a career in the latter - hence why you're looking at this website! Feel free to have a look around...</p>
+                
+                    <img 
+                src="https://media-exp1.licdn.com/dms/image/C4E03AQFyZTbRgqqTrA/profile-displayphoto-shrink_800_800/0/1627205301556?e=1635379200&v=beta&t=w6dBec94Aecw1t8_L_LOObuBxy1HpTNAs6BS7j2wK3s" 
+                alt="Brodie photo">
+                </div>
+            
+            </fieldset>
+        </form>
+        <p>
+            
+        </p>
+    </div>
+
+</section>
+<hr>
+<section>
+<div class="container projects" id="projects"></div>
+    <h1 class = "main-title">
+        Projects
+    </h1>
+    <br>
+    <p class="container" id="projects-text">
+        Here is where I would put all my projects - if I had any. So for now enjoy some placeholder text.
+        asdfasdfasdfasdfasdfasdfasdfasdfasdfadsf 
+    </p>
+    <div class="projects-grid">
+        <div class="bordered-container" id="project-1">
+            <p>
+                project 1
+            </p>
+        </div>
+        <div class="bordered-container" id="project-2">
+            <p>
+                project 2
+            </p>
+        </div>
+        <div class="bordered-container" id="project-3">
+            <p>
+                project 3
+            </p>
+        </div>
+        <div class="bordered-container" id="project-4">
+            <p>
+                project 4
+            </p>
+        </div>
+    </div>
+    <hr>
+    
+</section>
+
+
+<section>
+    <div class="socials-section container" id="socials">
+        <h1>
+            Socials
+        </h1>
+        <p>
+            You can get in touch with me via the following links:
+        </p>
+        <p>(don't have too much fun)</p>
+        <div class="socials-layout">
+            <a href="https://www.linkedin.com/in/brodie-mcguire/" class="socials-button" target="_blank">
+                LinkedIn <i class="fab fa-linkedin"></i>
+              </a>
+        
+              <a href="mailto:brodiedmcguire@gmail.com" class="socials-button" target="_blank">
+                Email <i class="fas fa-envelope-open-text"></i>
+              </a>
+        
+              <a href="tel:+44 7956462553" class="socials-button" target="_blank">
+                Call me <i class="fas fa-phone-square"></i>
+              </a>
+        
+              <a href="https://www.paypal.me/brodiemcguire" class="socials-button" target="_blank">
+                Buy me coffee <i class="fab fa-paypal"></i>
+              </a>
+        
+        </div>
+    </div>
+</section>
+</html>
