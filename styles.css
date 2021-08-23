@@ -108,6 +108,7 @@ img {
     transition: 0.5s;
     padding-top: 60px;
     opacity: 0.95;
+    font-family: monospace;
   }
   
   .sidenav a {
@@ -127,7 +128,6 @@ img {
     position: absolute;
     top: 0;
     right: 25px;
-    font-size: 36px;
     margin-left: 50px;
   }
 
@@ -190,3 +190,4 @@ img {
     grid-row: 1;
     grid-column: 2;
 }
+
