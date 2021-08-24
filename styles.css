@@ -7,9 +7,11 @@ html {
 
 body {
     background: linear-gradient(223deg, #dd00ff2f, #001eff28);
+    background: radial-gradient(circle at 100%, #dd00ff2f, #001eff28 50%, #eee 75%, rgba(2, 115, 167, 0.11) 75%);
     background-size: 600% 600%;
     opacity: 0.9;
     animation: gradient 16s ease infinite;
+    
 }
 
 body::after {
@@ -24,8 +26,8 @@ body::after {
     right: 0;
     position: absolute;
     z-index: -1;   
-    animation: gradient 1000s ease infinite;
-    animation: wave 10s ease infinite;
+    animation: gradient 100s ease infinite;
+    
   }
 
 @keyframes gradient {
@@ -43,7 +45,9 @@ body::after {
 }
 
 @keyframes wave {
-
+    50% {
+    transform: rotate(180deg);
+    }
 }
 
 h1 {
